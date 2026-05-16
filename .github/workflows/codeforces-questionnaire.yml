@@ -32,7 +32,7 @@ jobs:
       
       - name: Generate questionnaire
         run: |
-          python3 << 'EOF'
+          python3 << 'PYTHON_SCRIPT'
           import os
           import random
           import requests
@@ -73,7 +73,6 @@ jobs:
           if not problem_statement:
               raise Exception("无法解析题目内容")
           
-          # 提取中文翻译（如果有）或英文
           title_cn = problem['name']
           paragraphs = problem_statement.find_all('p')
           content_cn = "\n".join([p.get_text(strip=True) for p in paragraphs[:5]])
@@ -111,19 +110,25 @@ jobs:
           draw.text((PADDING, y), "题目描述:", font=font_normal, fill=(80, 70, 60))
           y += 40
           
-          # 简单的换行处理
-          words = content_cn.replace('\n', ' ').split('')
-          line = ""
-          for word in words:
-              test_line = line + word
+          # 🔧 修复：正确的自动换行逻辑
+          max_width = WIDTH - 2 * PADDING
+          lines = []
+          current_line = ""
+          
+          for char in content_cn:
+              test_line = current_line + char
               bbox = draw.textbbox((0, 0), test_line, font=font_normal)
-              if bbox[2] - bbox[0] < WIDTH - 2 * PADDING:
-                  line = test_line
+              if bbox[2] - bbox[0] < max_width:
+                  current_line = test_line
               else:
-                  draw.text((PADDING, y), line, font=font_normal, fill=(100, 90, 80))
-                  y += LINE_HEIGHT
-                  line = word
-          if line:
+                  lines.append(current_line)
+                  current_line = char
+          if current_line:
+              lines.append(current_line)
+          
+          for line in lines:
+              if y + LINE_HEIGHT > HEIGHT - 200:
+                  break  # 防止超出图片边界
               draw.text((PADDING, y), line, font=font_normal, fill=(100, 90, 80))
               y += LINE_HEIGHT
           
@@ -158,12 +163,13 @@ jobs:
               f.write(f"**题目描述**:\n{content_cn}\n\n")
               f.write(f"---\n\n")
               f.write(f"## 我的思考\n\n")
-              f.write(f"_\n\n" * 20)  # 空白区域
+              for _ in range(20):
+                  f.write("_\n\n")  # 空白区域
           
           print(f"✅ Markdown已生成: {md_path}")
           print("\n" + "="*60)
           print("🎉 问卷生成完成!")
-          EOF          
+          PYTHON_SCRIPT          
         env:
           MIN_RATING: ${{ github.event.inputs.min_rating || 800 }}
           MAX_RATING: ${{ github.event.inputs.max_rating || 1300 }}
@@ -172,6 +178,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add thinking-questionnaires/
+          git add thinking-questionnaires/ || true
           git commit -m "🧠 Auto-generate thinking flow questionnaire $(date +%Y-%m-%d)" || echo "No changes to commit"
           git push          
