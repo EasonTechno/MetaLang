@@ -1,0 +1,39 @@
+{
+  "task_id": "time_perception_0001",
+  "task_type": "time_perception",
+  "difficulty": "intermediate",
+  "versions": {
+    "zh": {
+      "language": "zh",
+      "title": "时间空间化：排序任务",
+      "description": "探索你如何在空间中表征时间概念。",
+      "question": "想象有三个事件：\n- 上周的一次聚会\n- 今天的午餐\n- 下周的一个会议\n\n如果让你把这三个事件在空间中排列，你会怎么摆放？\n\n请描述你脑中的排列方式。",
+      "options": [
+        "水平排列：过去在左，未来在右",
+        "水平排列：过去在右，未来在左",
+        "垂直排列：过去在上，未来在下",
+        "垂直排列：过去在下，未来在上",
+        "圆形/其他方式排列"
+      ],
+      "correct_answer": null,
+      "hint": "不同语言使用者对时间的空间表征往往不同——中文使用者常用垂直隐喻（上/下），而英文使用者常用水平隐喻（前/后）。"
+    },
+    "en": {
+      "language": "en",
+      "title": "Time Spatialization: Arrangement Task",
+      "description": "Explore how you represent time concepts in space.",
+      "question": "Imagine three events:\n- A party last week\n- Today's lunch\n- A meeting next week\n\nIf you had to arrange these three events in space, how would you place them?\n\nPlease describe the arrangement in your mind.",
+      "options": [
+        "Horizontal: Past on left, Future on right",
+        "Horizontal: Past on right, Future on left",
+        "Vertical: Past on top, Future on bottom",
+        "Vertical: Past on bottom, Future on top",
+        "Circular / Other arrangement"
+      ],
+      "correct_answer": null,
+      "hint": "Different language speakers often represent time differently in space — Chinese speakers often use vertical metaphors (up/down), while English speakers use horizontal (before/after)."
+    }
+  },
+  "tags": ["时间认知", "空间隐喻", "时间表征", "语言相对性"],
+  "reference": "Boroditsky, L. (2001). Does language shape thought? Mandarin and English speakers' conceptions of time"
+}
