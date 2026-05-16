@@ -4,7 +4,6 @@ pandas>=2.0.0
 numpy>=1.24.0
 
 # 数据处理
-sqlite3
 python-dotenv>=1.0.0
 
 # 可视化
