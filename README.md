@@ -1,155 +1,167 @@
-# 🧠 MetaLanguage Project
+# 🧠 MetaLang
 
-[![GitHub Stars](https://img.shields.io/github/stars/EasonTechno/MetaLanguage?style=social)](https://github.com/EasonTechno/MetaLanguage/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/EasonTechno/MetaLanguage)](https://github.com/EasonTechno/MetaLanguage/issues)
-[![License](https://img.shields.io/github/license/EasonTechno/MetaLanguage)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/EasonTechno/MetaLang?style=social)](https://github.com/EasonTechno/MetaLang/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/EasonTechno/MetaLang)](https://github.com/EasonTechno/MetaLang/issues)
+[![License](https://img.shields.io/github/license/EasonTechno/MetaLang)](LICENSE)
 
-> **Language shapes thought. Change your language, change your cognition.**
-
----
-
-## 📖 [中文版 README](README.zh-CN.md)
+> **Language shapes thought, cognition changes lives.**
 
 ---
 
-## 🎯 About The Project
+## 🌍 [中文版 README](README.zh-CN.md)
 
-The MetaLanguage Project is a cognitive enhancement research platform based on the **Sapir-Whorf Hypothesis** (Linguistic Relativity). We believe that the language we use fundamentally shapes how we think. By designing special "meta-languages" and training techniques, we can enhance specific cognitive abilities.
+---
 
-### 🔬 Research Approach
+## 🎯 Project Philosophy
 
-1. **Neural Network Simulation**: We train neural networks with different "native languages" to observe how language structures affect problem-solving patterns.
+This is not an ordinary project. This is an **exploration of the nature of human cognition**.
 
-2. **Human Training Tools**: We translate findings from AI research into practical training tools for humans:
-   - 📚 **Foreign Language Thinking**: Direct thinking in foreign languages (bypassing native language translation)
-   - 🧮 **Mathematical Reasoning**: Pure formal logic thinking without natural language mediation
-   - 🔄 **Recursive Thinking**: State-transition based problem solving for algorithmic thinking
-   - 🎯 **Artificial Language**: Custom-designed languages optimized for specific cognitive tasks
+Based on the **Sapir-Whorf Hypothesis (Linguistic Relativity)**, we propose a radical hypothesis:
 
-### 🚀 Practical Applications
+> **The language you think in determines how intelligent you are.**
 
-- **Exam Performance**: Students thinking directly in English show 20-30% improvement in English exams
-- **Algorithm Skills**: State-transition language training improves competitive programming performance
-- **Cognitive Flexibility**: Multi-lingual thinking enhances general problem-solving ability
+- Doing math in Chinese? Too slow. The brain needs to translate formal logic into everyday language first, losing 30% computational power in the process.
+- Learning English with grammar-translation? You'll never master it. You're not thinking in English; you're doing mental gymnastics of Chinese-English translation.
+- Can't grasp recursion and dynamic programming? It's not you—it's your native language that's not good at expressing state transitions.
+
+### 🔬 Experimental Validation
+
+We use **neural networks to replicate the human language learning process**:
+1. Implant a "native language" into the model (fixed, unchangeable)
+2. Train the model to learn second, third languages
+3. Observe if the model can **completely bypass the native language and think directly in the foreign language**
+4. Verify thinking efficiency differences across languages for specific problems
+
+The core thinking simulation engine has been spun off as the **ThoughtSim** library, available for standalone installation.
+
+### 🚀 Human Applications
+
+We turn AI experiment conclusions into training tools for humans:
+
+| Training Module | Core Idea | Real Effect |
+|----------------|-----------|-------------|
+| 📚 **Direct Foreign Language Thinking** | Skip native language translation, build concepts directly in foreign language | 20-30% score improvement in English exams |
+| 🔄 **Recursive Thinking Language** | No subject-predicate-object, describe problems using "state-transition" | Dramatic improvement in OI/ACM algorithm abilities |
+| 🧮 **Mathematical Language Reasoning** | Abandon natural language for pure formal logic derivation | No more headaches with advanced math/physics problems |
+| 🎯 **Artificial Language Design** | Design optimal languages for specific cognitive tasks | Unlock entirely new dimensions of thinking |
 
 ---
 
 ## ✨ Features
 
-### 🤖 Neural Network Experiments
-- Control experiments to verify linguistic relativity effects
-- Side-by-side comparison of different "native language" configurations
-- Quantifiable metrics for cognitive style differences
+### 🤖 ThoughtSim Thinking Simulator (Standalone Library)
+- Strictly controlled variables for quantifiable validation of linguistic relativity
+- Controlled experiments with same model architecture but different "native language" initializations
+- Quantifiable thinking style difference metrics
+- **Independent Open Source Project**: [EasonTechno/ThoughtSim](https://github.com/EasonTechno/ThoughtSim)
 
 ### 🛠️ Human Training Tools
-| Module | Purpose | Cognitive Skill |
-|--------|---------|-----------------|
-| **Foreign Language Thinking** | Train direct thinking in a second language | Language decoupling |
-| **Recursive Thinking** | State-transition framework for algorithms | Recursion, DP |
-| **Mathematical Reasoning** | Formal logic training | Abstract thinking |
-| **Artificial Language Design** | Custom languages for specific tasks | Cognitive design |
+- No AI background required, accessible to everyone
+- Every thinking style is a "language" that can be learned
+- Learn "recursion language" and "math language" like learning a second foreign language
 
-### 📋 Automated Questionnaire Generator
-- **GitHub Action powered**: Auto-generates training questionnaires
-- **Codeforces integration**: Random math problems 800-1300 difficulty
-- **Dual format output**: High-res PNG + printable PDF
-- **Free thinking flow**: No leading questions, just pure thought recording
-- **Schedule**: Every Monday, Wednesday, Friday at 9:00 AM
+### 📋 Thinking Flow Questionnaire Generator
+This is not an ordinary problem-solving tool—**we study HOW you think, not what the answer is**.
+
+- **Pure blank recording**: No leading questions, no interference with your native thinking flow
+- **Deep single-problem focus**: One problem at a time, quality over quantity
+- **Real Codeforces problem bank**: Live random sampling of 800-1300 difficulty math problems from Codeforces API
+- **Dual format output**: Eye-friendly PNG + printable PDF, works on phones and computers
+- **Scheduled generation**: Auto-push every Monday, Wednesday, Friday at 9 AM
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-### Prerequisites
+### Requirements
 - Python 3.9+
 - Streamlit
-- Pillow (for image generation)
+- Pillow
+- **ThoughtSim** (core thinking simulator library)
 
-### Installation
+### Launch Project
 
 ```bash
-# Clone the repository
-git clone https://github.com/EasonTechno/MetaLanguage.git
-cd MetaLanguage
-
-# Install dependencies
+git clone https://github.com/EasonTechno/MetaLang.git
+cd MetaLang
 pip install -r requirements.txt
-
-# Run the web interface
 ./start.sh
-# or
+# Or run directly
 streamlit run app.py
 ```
 
-### Using the Questionnaire Generator
+### Using Thinking Simulator Standalone
 
-1. Go to your repository's **Actions** tab
-2. Select **🧠 Thinking Flow Questionnaire Generator**
-3. Click **Run workflow**
-4. (Optional) Adjust min/max difficulty parameters
-5. Find generated files in `thinking-questionnaires/` folder
+ThoughtSim is available as an installable Python library:
+
+```bash
+pip install thoughtsim
+```
+
+```python
+from thoughtsim import ThoughtSimulator
+
+# Initialize simulator with native language
+sim = ThoughtSimulator(native_language="Chinese")
+
+# Anchor the native language network
+sim.anchor_native_network()
+
+# Train an independent English subnetwork
+result = sim.train_subnetwork(
+    language="English",
+    orthogonality_target=0.7,
+    epochs=100
+)
+
+print(f"Subnetwork independence: {result['final_independence']:.1%}")
+```
 
 ---
 
 ## 📁 Project Structure
 
 ```
-MetaLanguage/
-├── 📄 app.py                          # Main Streamlit application
+MetaLang/
+├── 📄 app.py                          # Streamlit main program
 ├── 📄 README.md                       # English documentation (this file)
-├── 📄 README.zh-CN.md                 # 中文文档
-├── 📄 requirements.txt                # Python dependencies
-├── 📄 start.sh                        # Quick start script
+├── 📄 README.zh-CN.md                 # Chinese documentation
+├── 📄 requirements.txt                # Dependencies (includes thoughtsim)
+├── 📄 start.sh                        # One-click startup script
 ├── 📂 .github/
 │   └── 📂 workflows/
-│       └── 📄 thinking_flow.yml       # Questionnaire generator action
-├── 📂 core-modules/                   # Core algorithm modules
-├── 📂 research-framework/             # Research methodology
-├── 📂 neural-network-experiments/     # AI simulation experiments
-├── 📂 training-tools/                 # Human training modules
-│   ├── foreign-language-thinking/
-│   ├── recursive-thinking/
-│   └── mathematical-reasoning/
-├── 📂 artificial-language-design/     # Custom language research
-├── 📂 practice-tools/                 # Practical application tools
+│       └── 📄 thinking_flow.yml       # Questionnaire generator Action
+├── 📂 core_modules/                   # Core algorithm modules
+├── 📂 research_framework/             # Research methodology
+├── 📂 training_tools/                 # Human training tools
+├── 📂 artificial_language/            # Artificial language design research
+├── 📂 practice_tools/                 # Practice application tools
 ├── 📂 data/                           # Training datasets
 └── 📂 docs/                           # Research documentation
 ```
 
 ---
 
-## 🔬 Research Philosophy
-
-> "The limits of my language mean the limits of my world."
-> — Ludwig Wittgenstein
-
-We reject the idea that **IQ is fixed**. Instead, we view intelligence as a set of **thinking languages** that can be learned, practiced, and mastered. Each thinking language is like a mental tool—optimized for specific types of problems.
-
-Our mission is to **catalog these thinking languages**, **develop efficient training methods**, and **make cognitive enhancement accessible to everyone**.
-
----
-
 ## 🤝 Contributing
 
-Contributions are welcome! Areas we're actively working on:
+Everyone is welcome to join this crazy project!
 
-1. 🧪 More thinking language designs
-2. 📊 Better training metrics and progress tracking
-3. 🤖 Expanded neural network experiments
-4. 📝 Additional questionnaire types
-5. 🌍 Multi-language translations (French, Japanese, etc.)
+We currently need:
+1. 🧪 Design and validation of more "thinking languages"
+2. 📊 Design of quantitative metrics for training effectiveness
+3. 🤖 Expansion of neural network controlled experiments (submit to ThoughtSim repo)
+4. 📝 More types of thinking flow questionnaires
+5. 🌍 Multi-language translation support (French, Japanese, etc.)
 
-Feel free to open issues or submit PRs!
+Feel free to open Issues or submit PRs!
 
 ---
 
 ## ✨ Contributors
 
-Thanks goes to these wonderful people who make MetaLanguage possible:
+Thanks to everyone who made MetaLang possible:
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- ALL-CONTRIBUTORS-LIST:START -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/EasonTechno"><img src="https://avatars.githubusercontent.com/EasonTechno?v=4&s=120" width="100px;" alt="EasonTechno"/><br /><sub><b>EasonTechno</b></sub></a><br /><a href="#projectManagement-EasonTechno" title="Project Management">📆</a> <a href="#ideas-EasonTechno" title="Ideas & Planning">🤔</a></td>
@@ -157,15 +169,14 @@ Thanks goes to these wonderful people who make MetaLanguage possible:
     <td align="center"><a href="https://github.com/anthropics"><img src="https://avatars.githubusercontent.com/anthropics?v=4&s=120" width="100px;" alt="Anthropic"/><br /><sub><b>Anthropic</b></sub></a><br /><a href="#code-anthropics" title="Code">💻</a> <a href="#ai-anthropics" title="AI Research">🤖</a></td>
   </tr>
 </table>
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
 
-## 📬 Contact & Community
+## 📬 Contact
 
-- **GitHub Issues**: [Project Issues](https://github.com/EasonTechno/MetaLanguage/issues)
+- **GitHub (Main Project)**: [EasonTechno/MetaLang](https://github.com/EasonTechno/MetaLang)
+- **GitHub (Thinking Simulator)**: [EasonTechno/ThoughtSim](https://github.com/EasonTechno/ThoughtSim)
 - **Email**: uu13652153631@qq.com
 - **Maintainer**: [@EasonTechno](https://github.com/EasonTechno)
 
@@ -173,12 +184,12 @@ Thanks goes to these wonderful people who make MetaLanguage possible:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - See [LICENSE](LICENSE) file for details
 
 ---
 
 <div align="center">
-    <strong>🌟 If this project interests you, give it a star! 🌟</strong>
+    <strong>🌟 If this project blew your mind, give it a Star so more people can see it! 🌟</strong>
     <br>
     <sub>Language shapes thought · Cognition changes lives</sub>
 </div>
