@@ -32,7 +32,7 @@ We use **neural networks to replicate the human language learning process**:
 3. Observe if the model can **completely bypass the native language and think directly in the foreign language**
 4. Verify thinking efficiency differences across languages for specific problems
 
-The core thinking simulation engine has been spun off as the **ThoughtSim** library, available for standalone installation.
+The core thinking simulation engine has been spun off as the **SynapGraph** library, available for standalone installation.
 
 ### 🚀 Human Applications
 
@@ -49,11 +49,11 @@ We turn AI experiment conclusions into training tools for humans:
 
 ## ✨ Features
 
-### 🤖 ThoughtSim Thinking Simulator (Standalone Library)
+### 🤖 SynapGraph Thinking Simulator (Standalone Library)
 - Strictly controlled variables for quantifiable validation of linguistic relativity
 - Controlled experiments with same model architecture but different "native language" initializations
 - Quantifiable thinking style difference metrics
-- **Independent Open Source Project**: [EasonTechno/ThoughtSim](https://github.com/EasonTechno/ThoughtSim)
+- **Independent Open Source Project**: [EasonTechno/SynapGraph](https://github.com/EasonTechno/SynapGraph)
 
 ### 🛠️ Human Training Tools
 - No AI background required, accessible to everyone
@@ -77,7 +77,7 @@ This is not an ordinary problem-solving tool—**we study HOW you think, not wha
 - Python 3.9+
 - Streamlit
 - Pillow
-- **ThoughtSim** (core thinking simulator library)
+- **SynapGraph** (core thinking simulator library)
 
 ### Launch Project
 
@@ -92,17 +92,17 @@ streamlit run app.py
 
 ### Using Thinking Simulator Standalone
 
-ThoughtSim is available as an installable Python library:
+SynapGraph is available as an installable Python library:
 
 ```bash
-pip install thoughtsim
+pip install synapgraph
 ```
 
 ```python
-from thoughtsim import ThoughtSimulator
+from synapgraph import SynapGraphulator
 
 # Initialize simulator with native language
-sim = ThoughtSimulator(native_language="Chinese")
+sim = SynapGraphulator(native_language="Chinese")
 
 # Anchor the native language network
 sim.anchor_native_network()
@@ -126,7 +126,7 @@ MetaLang/
 ├── 📄 app.py                          # Streamlit main program
 ├── 📄 README.md                       # English documentation (this file)
 ├── 📄 README.zh-CN.md                 # Chinese documentation
-├── 📄 requirements.txt                # Dependencies (includes thoughtsim)
+├── 📄 requirements.txt                # Dependencies (includes synapgraph)
 ├── 📄 start.sh                        # One-click startup script
 ├── 📂 .github/
 │   └── 📂 workflows/
@@ -149,7 +149,7 @@ Everyone is welcome to join this crazy project!
 We currently need:
 1. 🧪 Design and validation of more "thinking languages"
 2. 📊 Design of quantitative metrics for training effectiveness
-3. 🤖 Expansion of neural network controlled experiments (submit to ThoughtSim repo)
+3. 🤖 Expansion of neural network controlled experiments (submit to SynapGraph repo)
 4. 📝 More types of thinking flow questionnaires
 5. 🌍 Multi-language translation support (French, Japanese, etc.)
 
@@ -176,7 +176,7 @@ Thanks to everyone who made MetaLang possible:
 ## 📬 Contact
 
 - **GitHub (Main Project)**: [EasonTechno/MetaLang](https://github.com/EasonTechno/MetaLang)
-- **GitHub (Thinking Simulator)**: [EasonTechno/ThoughtSim](https://github.com/EasonTechno/ThoughtSim)
+- **GitHub (Thinking Simulator)**: [EasonTechno/SynapGraph](https://github.com/EasonTechno/SynapGraph)
 - **Email**: uu13652153631@qq.com
 - **Maintainer**: [@EasonTechno](https://github.com/EasonTechno)
 
