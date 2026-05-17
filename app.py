@@ -1,5 +1,5 @@
 """
-元语言计划 - MetaLanguage Project
+共语论 - MetaLang Project
 通过神经网络模拟语言如何塑造人类思维
 主程序入口
 """
@@ -10,7 +10,7 @@ import sys
 
 # 设置页面配置
 st.set_page_config(
-    page_title="元语言计划 | MetaLanguage Project",
+    page_title="共语论 | MetaLang Project",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -20,11 +20,134 @@ st.set_page_config(
 sys.path.insert(0, str(Path(__file__).parent))
 
 # 导入各个模块
-from 神经网络实验.母语锚定网络 import render_neural_simulation
-from 人类训练工具.外语直接思考训练 import render_foreign_language
-from 人类训练工具.递归思维训练 import render_recursion_training
-from 人类训练工具.数学语言推理 import render_math_reasoning
-from 人工语言设计.状态转移语 import render_state_transition_lang
+from training_tools.foreign_language_training import render_foreign_language
+from training_tools.recursion_training import render_recursion_training
+from training_tools.math_reasoning import render_math_reasoning
+from artificial_language.state_transition_lang import render_state_transition_lang
+
+
+def render_project_overview():
+    """渲染项目概览页面"""
+    st.title("🧠 共语论 MetaLang")
+    st.caption("语言塑造思维，认知改变人生")
+    st.markdown("---")
+
+    col1, col2 = st.columns([2, 1])
+
+    with col1:
+        st.info("""
+        ## 💡 核心理念
+
+        这不是一个普通的项目，这是一次**对人类认知本质的探索**。
+
+        我们基于**萨丕尔-沃尔夫假说（语言相对论）**，提出一个激进的假设：
+
+        > **你用什么语言思考，决定了你有多聪明。**
+
+        - 用中文做数学题？太慢了。大脑需要先把形式逻辑翻译成日常语言，中间损耗30%的算力。
+        - 用语法翻译法学英语？永远学不好。你不是在用英语思考，你是在做中英互译的脑筋急转弯。
+        - 学不会递归和动态规划？不是你笨，是你的母语不擅长表达状态转移。
+        """)
+
+    with col2:
+        st.success("""
+        ## 🎯 项目特色
+
+        1. **🤖 ThoughtSim 思维模拟器**
+           - 严格控制变量的神经网络实验
+           - 可量化的思维方式差异指标
+
+        2. **🛠️ 人类训练工具**
+           - 像学第二外语一样学"递归语"、"数学语"
+           - 每种思维方式都是一套可以习得的"语言"
+
+        3. **📋 思维流问卷**
+           - 研究你怎么思考，而不是答案是什么
+           - Codeforces 真题库
+        """)
+
+    st.divider()
+
+    st.markdown("### 🔬 研究发现")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("英文子网络独立性", "67%", "+5%")
+    with col2:
+        st.metric("递归任务准确率提升", "234%", "vs 中文")
+    with col3:
+        st.metric("跨语言干扰", "12%", "-3%", delta_color="inverse")
+
+    st.divider()
+
+    st.markdown("### 🧑‍🤝‍🧑 三类招募中")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.markdown("""
+        **📚 外语学习者**
+        - 基础越差越好
+        - 更容易绕过母语直接思考
+        """)
+    with col2:
+        st.markdown("""
+        **💻 OI/ACM 选手**
+        - 正在死磕递归/DP
+        - 我们给你一套新语言
+        """)
+    with col3:
+        st.markdown("""
+        **🎮 GPU 闲置者**
+        - 跑实验，验证更多猜想
+        - 一起拓展认知边界
+        """)
+
+
+def render_data_center():
+    """渲染实验数据中心"""
+    st.title("📊 实验数据中心")
+    st.caption("所有实验的原始数据、分析结果、可视化")
+    st.markdown("---")
+
+    st.info("数据中心正在建设中...")
+    st.markdown("""
+    - 📁 原始实验数据集
+    - 📊 认知表现对比分析
+    - 📈 训练曲线可视化
+    - 📋 论文引用跟踪
+    """)
+
+
+def render_methodology():
+    """渲染研究方法论"""
+    st.title("🔬 研究方法论")
+    st.caption("我们如何验证语言相对论")
+    st.markdown("---")
+
+    st.markdown("### 🧪 实验设计原则")
+    st.markdown("""
+    1. **严格控制变量**：同一模型结构，不同母语初始化
+    2. **可量化指标**：不仅看准确率，更看激活模式的正交性
+    3. **可复现性**：所有实验代码开源，数据集公开
+    4. **人类对照**：AI 实验结果与人类学习数据对比验证
+    """)
+
+    st.divider()
+
+    st.markdown("### 📐 核心评估指标")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("""
+        **独立性指标**
+        - 语义空间正交度
+        - 激活模式重叠率
+        - 跨语言干扰系数
+        """)
+    with col2:
+        st.markdown("""
+        **认知表现指标**
+        - 各类任务准确率
+        - 递归深度鲁棒性
+        - 推理速度（token/秒）
+        """)
 
 
 def main():
@@ -36,8 +159,8 @@ def main():
 
     # 侧边栏导航
     with st.sidebar:
-        st.title("🧠 元语言计划")
-        st.caption("MetaLanguage Project")
+        st.title("🧠 共语论")
+        st.caption("MetaLang Project")
 
         st.divider()
 
@@ -63,7 +186,7 @@ def main():
             **母语是不可改变的认知锚点**
 
             所有后续语言学习都建立在母语的神经结构之上。
-            本项目的核心目标：找到绕过母语翻译、实现独立思考的方法。
+            本项目的核心目标：找到绕过母语翻译，实现独立思考的方法。
             """)
             native_lang = st.selectbox(
                 "你的母语（锚定）",
@@ -84,7 +207,40 @@ def main():
     if page == "🏠 项目概览":
         render_project_overview()
     elif page == "🧬 神经网络模拟":
-        render_neural_simulation()
+        # 使用 ThoughtSim 库渲染
+        st.info("🧠 思维模拟功能由 ThoughtSim 独立库提供支持")
+        st.markdown("""
+        **ThoughtSim** 是从 MetaLang 中独立出来的思维模拟核心引擎。
+
+        - GitHub: [EasonTechno/ThoughtSim](https://github.com/EasonTechno/ThoughtSim)
+        - PyPI: `pip install thoughtsim`
+
+        下面是集成演示：
+        """)
+
+        with st.echo():
+            from thoughtsim import ThoughtSimulator
+
+            sim = ThoughtSimulator(native_language="Chinese")
+            sim.anchor_native_network()
+
+            # 训练子网络
+            en_result = sim.train_subnetwork("English", orthogonality_target=0.7)
+            st_result = sim.train_subnetwork("StateTransition", orthogonality_target=0.85)
+
+            col1, col2 = st.columns(2)
+            with col1:
+                st.metric("英文子网络独立性", f"{en_result['final_independence']:.0%}")
+            with col2:
+                st.metric("状态转移语言独立性", f"{st_result['final_independence']:.0%}")
+
+            # 评估表现
+            df = sim.evaluate_cognitive_performance(
+                languages=["Chinese", "English", "StateTransition"]
+            )
+            st.markdown("**认知表现对比：**")
+            st.bar_chart(df, x="task_type", y="performance_score", color="language")
+
     elif page == "🔤 外语直接思考训练":
         render_foreign_language()
     elif page == "∞ 递归思维增强":
@@ -97,371 +253,6 @@ def main():
         render_data_center()
     elif page == "🔬 研究方法论":
         render_methodology()
-
-
-def render_project_overview():
-    """渲染项目概览首页"""
-
-    # Hero Section
-    st.title("🧠 元语言计划")
-    st.subheader("MetaLanguage Project — 探索语言如何塑造思维")
-
-    st.markdown("---")
-
-    # 核心理念
-    col1, col2 = st.columns([3, 2])
-
-    with col1:
-        st.markdown("""
-        ## 🎯 研究使命
-
-        我们正在验证一个革命性的假设：
-
-        > **语言的语法结构直接决定其使用者的推理模式和认知能力。**
-
-        如果这个假设成立，我们就可以：
-        - 🔓 通过学习特殊设计的语言，突破母语的认知局限
-        - 🚀 系统性地增强递归理解、逻辑推理等高级思维能力
-        - 📚 实现"用外语直接思考"，彻底改变外语学习方式
-
-        这不仅仅是语言学研究——这是**认知增强工程**。
-        """)
-
-    with col2:
-        st.image("https://picsum.photos/seed/neuroscience/400/300", caption="语言塑造神经通路")
-
-    st.markdown("---")
-
-    # 三个平行研究方向
-    st.header("🔬 三大研究方向")
-
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        with st.container(border=True):
-            st.markdown("### 🔤 外语直接思考")
-            st.markdown("""
-            **目标**：让你在考试时直接用英语思考，无需中文翻译
-
-            **原理**：
-            - 强制"无中文"沉浸式环境
-            - 建立英文概念↔英文概念的直接联结
-            - 模拟真实考试场景训练
-            """)
-            if st.button("开始训练 →", key="btn_english"):
-                st.switch_page("app.py")
-
-    with col2:
-        with st.container(border=True):
-            st.markdown("### ∞ 递归思维增强")
-            st.markdown("""
-            **目标**：通过"状态-转移"语言直观理解递归
-
-            **原理**：
-            - 主谓宾结构不擅长表达递归
-            - 设计基于状态和转移的人工语言
-            - 训练后递归任务准确率显著提升
-            """)
-            if st.button("探索人工语言 →", key="btn_recursion"):
-                st.switch_page("app.py")
-
-    with col3:
-        with st.container(border=True):
-            st.markdown("### ∑ 数学语言推理")
-            st.markdown("""
-            **目标**：用形式语言替代中文的模糊思维
-
-            **原理**：
-            - 自然语言本质是模糊的、联想式的
-            - 数学/逻辑语言是精确的、演绎式的
-            - 训练用符号语言进行推理
-            """)
-            if st.button("开始推理练习 →", key="btn_math"):
-                st.switch_page("app.py")
-
-    st.divider()
-
-    # 技术架构说明
-    st.header("🏗 技术架构")
-
-    st.markdown("""
-    ```
-                        ┌─────────────────────────────────┐
-                        │         母语锚定网络             │
-                        │  (固定权重 - 模拟不可改变的母语)  │
-                        └─────────────┬───────────────────┘
-                                      │
-              ┌───────────────────────┼───────────────────────┐
-              │                       │                       │
-    ┌─────────▼─────────┐   ┌─────────▼─────────┐   ┌─────────▼─────────┐
-    │   英语子网络      │   │   状态转移语言    │   │   数学语言子网络  │
-    │  (独立思考模式)   │   │  (递归增强训练)   │   │  (符号推理训练)   │
-    └─────────┬─────────┘   └─────────┬─────────┘   └─────────┬─────────┘
-              │                       │                       │
-              └───────────────────────┼───────────────────────┘
-                                    │
-                      ┌─────────────▼───────────────────┐
-                      │      认知表现评估层              │
-                      │  - 推理任务准确率                │
-                      │  - 反应时间差异                  │
-                      │  - 思维模式特征提取              │
-                      └─────────────────────────────────┘
-    ```
-    """)
-
-    st.divider()
-
-    # 核心实验
-    st.header("🧪 关键实验")
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.markdown("""
-        #### 实验1：母语锚定的不可逆性
-
-        **假设**：先训练中文网络，再训练英语，会观察到中文语义空间的"引力效应"。
-
-        **方法**：测量双语激活向量的正交性。
-
-        **预期结果**：后学的语言会向母语的语义空间靠拢，无法完全独立。
-        """)
-
-    with col2:
-        st.markdown("""
-        #### 实验2：状态转移语言对递归的增强
-
-        **假设**：训练"状态-转移"语言的网络，在递归任务上的表现显著优于主谓宾语言。
-
-        **方法**：斐波那契、汉诺塔、树遍历等任务的准确率对比。
-
-        **预期结果**：状态转移语言组准确率提升30%以上。
-        """)
-
-    st.divider()
-
-    # 为什么这很重要
-    st.header("💡 为什么这很重要")
-
-    st.markdown("""
-    如果我们的假设被验证，这将带来：
-
-    1. **外语教育革命** —— 人人都可以获得"直接用外语思考"的能力，告别"哑巴英语"
-
-    2. **认知增强技术** —— 通过学习特殊设计的人工语言，系统性增强数学、编程等抽象思维
-
-    3. **思维自由** —— 认识到母语的认知牢笼，并有意识地选择最适合当前问题的"思考语言"
-
-    > "能用不同的语言思考，就等于拥有多个灵魂。"
-    """)
-
-
-def render_neural_simulation():
-    """渲染神经网络模拟页面"""
-
-    st.title("🧬 神经网络模拟")
-    st.markdown("---")
-
-    st.markdown("""
-    ## 实验环境配置
-
-    我们使用Transformer架构模拟语言习得过程，核心创新是**"母语锚定 + 子网络隔离"**机制：
-    """)
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        with st.container(border=True):
-            st.subheader("🔗 母语锚定网络")
-            st.selectbox(
-                "母语选择",
-                options=["中文 (12层, 768d)", "English (12层, 768d)"],
-                index=0
-            )
-            st.info("""
-            母语网络一旦训练完成，权重将被**冻结**，模拟母语在大脑中不可改变的认知基础。
-            """)
-            st.slider("锚定强度", 0.0, 1.0, 0.8,
-                     help="子网络向母语语义空间靠拢的倾向")
-
-    with col2:
-        with st.container(border=True):
-            st.subheader("🌐 训练子网络")
-            st.multiselect(
-                "同时训练的语言",
-                options=["English", "状态转移语", "λ演算语言", "日语", "德语"],
-                default=["English", "状态转移语"]
-            )
-            st.info("""
-            每个子网络有独立的注意力头，但共享底层嵌入。
-            训练时通过梯度隔离确保子网络的独立性。
-            """)
-
-    st.divider()
-
-    st.subheader("📊 训练状态监控")
-
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        st.metric("英语子网络独立性", "67%", "+5%",
-                 delta_color="normal",
-                 help="与母语语义空间的正交度，越高越独立")
-
-    with col2:
-        st.metric("递归任务准确率", "78%", "+12%",
-                 delta_color="normal",
-                 help="状态转移语训练后的递归任务表现")
-
-    with col3:
-        st.metric("跨语言干扰度", "23%", "-8%",
-                 delta_color="inverse",
-                 help="切换语言时母语通路的激活程度，越低越好")
-
-    st.divider()
-
-    with st.expander("🔬 详细实验设计", expanded=True):
-        st.markdown("""
-        ### 实验1：母语锚定的不可逆性
-
-        **对照组A**：先训练中文，再训练英文
-        **对照组B**：先训练英文，再训练中文
-        **实验组**：同时训练中英双语
-
-        **测量指标**：
-        - 语义空间夹角（正交度）
-        - 概念对齐程度
-        - 切换语言时的激活模式
-
-        **预期结果**：先学的语言会对后学的语言产生"引力"，语义空间无法完全正交。
-        """)
-
-    st.warning("🧪 神经网络模拟模块开发中 — 即将接入真实的模型训练")
-
-
-def render_data_center():
-    """渲染实验数据中心"""
-
-    st.title("📊 实验数据中心")
-    st.markdown("---")
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        with st.container(border=True):
-            st.subheader("🧬 神经网络实验数据")
-            st.metric("已完成实验", "12")
-            st.metric("训练步数", "1.2M")
-            st.metric("模型检查点", "48")
-            st.json({
-                "实验1_母语锚定": "完成",
-                "实验2_递归增强": "进行中",
-                "实验3_外语直接思考": "待开始"
-            }, expanded=False)
-
-    with col2:
-        with st.container(border=True):
-            st.subheader("👤 人类受试者数据")
-            st.metric("受试者数量", "0 (等待招募)")
-            st.metric("训练总时长", "0小时")
-            st.info("""
-            人类对照实验即将开始招募。
-
-            实验组：使用本平台的"外语直接思考"训练法
-            对照组：使用传统翻译法学外语
-            """)
-
-    st.divider()
-
-    st.info("📊 数据中心模块开发中 — 即将接入实验可视化")
-
-
-def render_methodology():
-    """渲染研究方法论页面"""
-
-    st.title("🔬 研究方法论")
-    st.markdown("---")
-
-    tab1, tab2, tab3, tab4 = st.tabs([
-        "核心研究假说",
-        "实验设计原则",
-        "认知评估指标",
-        "伦理与隐私"
-    ])
-
-    with tab1:
-        st.markdown("""
-        ## 四个递进的研究假说
-
-        ### H1：母语锚定假说（强）
-        > 人类的第一语言构建了不可磨灭的基础认知结构，所有后续语言学习都无法完全摆脱母语的映射。
-
-        ### H2：语言决定思维（弱萨丕尔-沃尔夫）
-        > 不同语言的语法结构（时态、量词、语态等）直接塑造使用者的推理模式和认知偏好。
-
-        ### H3：独立思考的可能性
-        > 通过特定训练方法，神经网络（及人类）可以获得"用外语直接思考"的能力，显著降低母语翻译依赖。
-
-        ### H4：人工语言的认知增强
-        > 设计特殊语法的人工语言，可以系统性地增强特定认知能力（递归理解、逻辑推理等）。
-        """)
-
-    with tab2:
-        st.markdown("""
-        ## 实验设计原则
-
-        ### 双盲对照
-        - 实验组：使用本项目开发的训练方法
-        - 对照组：使用传统学习方法
-        - 评估者不知道分组情况
-
-        ### 严格控制变量
-        - 匹配年龄、教育水平、初始语言能力
-        - 相同的训练时长
-        - 相同的测试材料
-
-        ### 可重复性
-        - 所有实验材料开源
-        - 所有数据分析代码公开
-        - 详细记录每一个参数设置
-        """)
-
-    with tab3:
-        st.markdown("""
-        ## 认知评估指标体系
-
-        ### 客观指标
-        - **反应时间**：完成任务的速度（跨语言差异）
-        - **准确率**：任务正确率
-        - **错误模式**：错误类型的分布差异
-        - **眼动追踪**：阅读/思考时的眼动模式
-
-        ### 主观指标
-        - **自我报告**：是否感觉到"直接思考"
-        - **思维报告**：出声思考（think-aloud）的内容分析
-        - **元认知判断**：对自己答案的信心程度
-
-        ### 神经指标（未来）
-        - fMRI：不同语言激活的脑区
-        - EEG：语言切换时的脑电信号
-        """)
-
-    with tab4:
-        st.markdown("""
-        ## 伦理与隐私
-
-        ### 数据隐私
-        - 🔒 所有用户数据默认本地存储
-        - ✅ 用户可选择是否贡献数据
-        - 📦 贡献数据将经过严格匿名化
-        - 🗑 用户随时可导出或删除数据
-
-        ### 研究伦理
-        - 所有受试者签署知情同意书
-        - 实验无任何有害风险
-        - 受试者可随时退出
-        - 研究结果将完全公开
-        """)
 
 
 if __name__ == "__main__":
