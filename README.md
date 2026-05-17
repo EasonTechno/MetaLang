@@ -166,7 +166,8 @@ Thanks to everyone who made MetaLang possible:
   <tr>
     <td align="center"><a href="https://github.com/EasonTechno"><img src="https://avatars.githubusercontent.com/EasonTechno?v=4&s=120" width="100px;" alt="EasonTechno"/><br /><sub><b>EasonTechno</b></sub></a><br /><a href="#projectManagement-EasonTechno" title="Project Management">📆</a> <a href="#ideas-EasonTechno" title="Ideas & Planning">🤔</a></td>
     <td align="center"><a href="https://github.com/siimonQWER"><img src="https://avatars.githubusercontent.com/siimonQWER?v=4&s=120" width="100px;" alt="siimonQWER"/><br /><sub><b>siimonQWER</b></sub></a><br /><a href="#test-siimonQWER" title="Testing">⚠️</a> <a href="#feedback-siimonQWER" title="Feedback">💬</a></td>
-    <td align="center"><a href="https://github.com/anthropics"><img src="https://avatars.githubusercontent.com/anthropics?v=4&s=120" width="100px;" alt="Anthropic"/><br /><sub><b>Anthropic</b></sub></a><br /><a href="#code-anthropics" title="Code">💻</a> <a href="#ai-anthropics" title="AI Research">🤖</a></td>
+    <td align="center"><a href="https://github.com/Claude"><img src="https://avatars.githubusercontent.com/Claude?v=4&s=120" width="100px;" alt="Claude"/><br /><sub><b>Claude</b></sub></a><br /><a href="#code-Claude" title="Code">💻</a> <a href="#ai-anthropics" title="AI Research">🤖</a></td>
+  </tr>
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
