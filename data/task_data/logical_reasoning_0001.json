@@ -1,0 +1,39 @@
+{
+  "task_id": "logical_reasoning_0001",
+  "task_type": "logical_reasoning",
+  "difficulty": "intermediate",
+  "versions": {
+    "zh": {
+      "language": "zh",
+      "title": "华生选择任务",
+      "description": "这是一个经典的逻辑推理任务，测试你对条件推理的理解。",
+      "question": "桌上有四张卡片，每张卡片的一面是数字，另一面是字母。规则是：如果卡片的一面是元音字母（A, E, I, O, U），那么另一面一定是偶数。现在你看到的卡片是：A, K, 4, 7。请问你需要翻开哪几张卡片来验证这个规则是否正确？",
+      "options": [
+        "只翻开 A",
+        "翻开 A 和 4",
+        "翻开 A 和 7",
+        "翻开 K 和 7",
+        "翻开所有四张卡片"
+      ],
+      "correct_answer": "翻开 A 和 7",
+      "hint": "思考一下：什么情况会让规则不成立？"
+    },
+    "en": {
+      "language": "en",
+      "title": "Wason Selection Task",
+      "description": "This is a classic logical reasoning task testing your understanding of conditional inference.",
+      "question": "There are four cards on the table. Each card has a number on one side and a letter on the other. The rule is: If a card has a vowel (A, E, I, O, U) on one side, it must have an even number on the other side. The cards you see are: A, K, 4, 7. Which cards do you need to turn over to test if the rule holds?",
+      "options": [
+        "Only turn over A",
+        "Turn over A and 4",
+        "Turn over A and 7",
+        "Turn over K and 7",
+        "Turn over all four cards"
+      ],
+      "correct_answer": "Turn over A and 7",
+      "hint": "Think: What would make the rule false?"
+    }
+  },
+  "tags": ["逻辑推理", "条件推理", "华生选择任务", "经典实验"],
+  "reference": "Wason, P. C. (1966). Reasoning"
+}
