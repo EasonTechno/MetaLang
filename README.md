@@ -172,11 +172,11 @@ Thanks to everyone who made MetaLang possible:
 [![siimonQWER](https://avatars.githubusercontent.com/siimonQWER?v=4&s=80)](https://github.com/siimonQWER)
 [![Claude](https://avatars.githubusercontent.com/Claude?v=4&s=80)](https://github.com/Claude)
 
-**Questionnaire Participants** (25 total)
+**Questionnaire Participants** (26 total)
 
-道爷我成了 · 噬菌体侵染降噪耳机 · parity-police · lmy · 何嘉豪 · 今天晚上吃点啥 · 注意力惊人 · 数学数学我们喜欢你 · IAKIOI · 钥匙 · KingFrank · 可以随便取名吗 · NPC · zhr的桌子～ · Siimon哥我男神😘 · zyc的零食呢 · 王昊宇 · KeYanZhao · 双叉犀金蛋 · 66789 · 麦斯欧德 · hz258258 · Masud
+杀死那个贝尔曼代数线形几何微分几何啊啊啊 · 道爷我成了 · 噬菌体侵染降噪耳机 · parity-police · lmy · 何嘉豪 · 今天晚上吃点啥 · 注意力惊人 · 数学数学我们喜欢你 · IAKIOI · 钥匙 · KingFrank · 可以随便取名吗 · NPC · zhr的桌子～ · Siimon哥我男神😘 · zyc的零食呢 · 王昊宇 · KeYanZhao · 双叉犀金蛋 · 66789 · 麦斯欧德 · hz258258 · Masud
 
-**25** Contributors 🌟
+**26** Contributors 🌟
 
 </div>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
@@ -189,12 +189,16 @@ High-quality questionnaire responses (sorted by length):
 
 | Nickname | Words | Highlight |
 |----------|-------|-----------|
-| **hz258258** | 225 | Only one with full verification, well-formatted |
-| **道爷我成了** | 202 | Quadratic equation perspective, detailed process |
 | **注意力惊人** | 185 | Listed all 12 factor pairs for verification |
-| **parity-police** | 182 | Mod 2 analysis, systematic approach |
-| **何嘉豪** | 172 | Symmetry analysis, case by case |
-| **今天晚上吃点啥** | 168 | Construction method, discovered cubic structure |
+| **parity-police** | 182 | Mod 2 analysis, ruled out multiple cases |
+| **何嘉豪** | 172 | Cubic equation perspective on root existence |
+| **杀死那个贝尔曼代数线形几何微分几何啊啊啊** | 170 | Polynomial construction approach |
+| **今天晚上吃点啥** | 168 | Discovered cubic structure (a=b=1) |
+| **数学数学我们喜欢你** | 114 | c=0 enumeration approach |
+| **噬菌体侵染降噪耳机** | 108 | Parametric method |
+| **KeYanZhao** | 87 | Symmetry analysis |
+| **lmy** | 23 | Sincere feedback |
+| **IAKIOI** | 20 | Naive intuition |
 
 ---
 
@@ -210,21 +214,21 @@ The most "soulful" answers from the questionnaire:
 > 
 > 不是这不是数论题么，我都退竞了你还不放过我！！
 
-> **数学数学我们喜欢你** (114 chars)
-> 
-> 如果 c = 0，那原式变成 (a+b)·ab = 2024 = 2³×11×23。a和b是整数，a+b乘以ab。我可以枚举a的值……但这样有点盲目。**直觉上a和b不能太小也不能太大，2024的因子结构决定了a和b大概在什么范围。**
-
 > **KingFrank** (13 chars)
 > 
 > 谁把这玩意塞到我抖音里了😅
+
+> **王昊宇** (3 chars)
+> 
+> aaa
 
 > **Siimon哥我男神😘** (20 chars)
 > 
 > 不存在吧，三奇三偶都不行，剩下的懒得算了
 
-> **王昊宇** (3 chars)
+> **数学数学我们喜欢你** (114 chars)
 > 
-> aaa
+> 如果 c = 0，那原式变成 (a+b)·ab = 2024 = 2³×11×23。a和b是整数，a+b乘以ab。我可以枚举a的值……但这样有点盲目。**直觉上a和b不能太小也不能太大，2024的因子结构决定了a和b大概在什么范围。**
 
 ---
 
