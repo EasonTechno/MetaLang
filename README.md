@@ -202,17 +202,29 @@ High-quality questionnaire responses (sorted by length):
 
 The most "soulful" answers from the questionnaire:
 
-> **道爷我成了**: Treating a as a variable... why are you doing this to me! My math failed again, my heart hurts so much!!! 苍羌蹬阶！！！
+> **道爷我成了** (202 chars)
+> 
+> 把 a 看成变量，研究是否等于2024。这是一个关于a的二次方程：令 f(a) = (a+P)(aQ+R) 其中 P=b+c， Q=b+c， R=bc。展开：a²Q + a(PQ+R) + PR = 2024。解这个二次方程，看判别式是否完全平方。a = [-B ± √(B²-4AC)]/2A，需要 √(...) 为整数。**你为什么要这么对我，我的数学又挂科了，我的心真的好痛啊啊啊啊啊啊！苍羌蹬阶！！！**
 
-> **lmy**: This is a number theory problem, I already quit competitive programming and you still won't let me go!!!
+> **lmy** (23 chars)
+> 
+> 不是这不是数论题么，我都退竞了你还不放过我！！
 
-> **KingFrank**: Who stuffed this into my TikTok? 😅
+> **数学数学我们喜欢你** (114 chars)
+> 
+> 如果 c = 0，那原式变成 (a+b)·ab = 2024 = 2³×11×23。a和b是整数，a+b乘以ab。我可以枚举a的值……但这样有点盲目。**直觉上a和b不能太小也不能太大，2024的因子结构决定了a和b大概在什么范围。**
 
-> **王昊宇**: aaa
+> **KingFrank** (13 chars)
+> 
+> 谁把这玩意塞到我抖音里了😅
 
-> **Siimon哥我男神😘**: Doesn't exist, tried all three-odd and three-even cases, too lazy to calculate the rest
+> **Siimon哥我男神😘** (20 chars)
+> 
+> 不存在吧，三奇三偶都不行，剩下的懒得算了
 
-> **数学数学我们喜欢你**: If c=0, the expression becomes (a+b)·ab = 2024... intuitively a and b can't be too small or too large
+> **王昊宇** (3 chars)
+> 
+> aaa
 
 ---
 
