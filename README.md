@@ -183,38 +183,44 @@ Thanks to everyone who made MetaLang possible:
 
 ---
 
+## 😂 Best Responses
+
+Funny answers collected from the questionnaire:
+
+> **Anonymous**: 额这是啥啊我不是在玩手机吗
+
+> **杀死那个贝尔曼代数线形几何微分几何啊啊啊**: a,b,c 是整数，我能不能构造一个以它们为根的多项式...别给我推数学了好吗我还要堵桥呢
+
+> **Anonymous**: 谁把这玩意塞到我抖音里了😅
+
+> **道爷我成了**: a = [-B ± √(B²-4AC)]/2A...你为什么要这么对我，我的数学又挂科了，我的心真的好痛啊啊啊啊啊啊！苍羌蹬阶！！！
+
+> **Anonymous**: 出卷人是gay
+
+> **lmy**: 不是这不是数论题么，我都退竞了你还不放过我！！
+
+> **IAKIOI**: 肯定有啊，2024这么大没有我吃点东西!
+
+> **何嘉豪**: 知乎体回答，"谢邀但是这破题不是高中的么，上大学了还在追我"
+
+---
+
 ## 🏆 Special Thanks
 
 High-quality questionnaire responses (sorted by length):
 
 | Nickname | Words | Highlight |
 |----------|-------|-----------|
-| **噬菌体侵染降噪耳机** | 108 | Parametric method, multiple angles |
-| **数学数学我们喜欢你** | 114 | c=0 enumeration, intuition |
-| **道爷我成了** | 202 | Quadratic equation, detailed process |
-| **注意力惊人** | 185 | Listed all 12 factor pairs |
-| **parity-police** | 182 | Mod 2 analysis, ruled out cases |
+| **噬菌体侵染降噪耳机** | 108 | Parametric method |
+| **数学数学我们喜欢你** | 114 | c=0 enumeration |
+| **道爷我成了** | 202 | Quadratic equation |
+| **注意力惊人** | 185 | Factor pairs |
+| **parity-police** | 182 | Mod 2 analysis |
 | **杀死那个贝尔曼代数线形几何微分几何啊啊啊** | 170 | Polynomial construction |
-| **何嘉豪** | 172 | Cubic equation perspective |
-| **今天晚上吃点啥** | 168 | Discovered cubic structure |
-| **KeYanZhao** | 87 | Symmetry analysis |
+| **何嘉豪** | 172 | Cubic equation |
+| **今天晚上吃点啥** | 168 | Cubic structure |
+| **KeYanZhao** | 87 | Symmetry |
 | **IAKIOI** | 20 | Naive intuition |
-
----
-
-## 😂 Best Responses
-
-The most "soulful" answers from the questionnaire:
-
-> **杀死那个贝尔曼代数线形几何微分几何啊啊啊**: a，b，c 是整数，我能不能构造一个以它们为根的多项式 f(t) = (t-a)(t-b)(t-c)，让它有简单的系数？设 f(t) = t³ - mt² + nt - p，其中 m=a+b+c， n=ab+bc+ca， p=abc。如果我能让 p 也等于某个好算的数就好了——但 p 会自动确定，不受控制。别给我推数学了好吗我还要堵桥呢
-
-> **道爷我成了**: 把 a 看成变量，研究是否等于2024。这是一个关于a的二次方程：令 f(a) = (a+P)(aQ+R) 其中 P=b+c， Q=b+c， R=bc。展开：a²Q + a(PQ+R) + PR = 2024。解这个二次方程，看判别式是否完全平方。a = [-B ± √(B²-4AC)]/2A，需要 √(...) 为整数。你为什么要这么对我，我的数学又挂科了，我的心真的好痛啊啊啊啊啊啊！苍羌蹬阶！！！
-
-> **lmy**: 不是这不是数论题么，我都退竞了你还不放过我！！
-
-> **IAKIOI**: 肯定有啊，2024这么大没有我吃点东西!
-
-> **何嘉豪**: 设 s = a+b+c，p = ab+bc+ca。则 a，b，c 是方程 t³ - st² + pt - abc = 0 的根。三个实数根存在，但这里要求整数根。整数根的必要条件：判别式 Δ ≥ 0 且为完全平方数。直接算Δ太复杂了，但我可以反过来想：先固定 s 和 p，看能否凑出整数 a，b，c，谢邀但是这破题不是高中的么，上大学了还在追我
 
 ---
 
