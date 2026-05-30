@@ -189,15 +189,15 @@ High-quality questionnaire responses (sorted by length):
 
 | Nickname | Words | Highlight |
 |----------|-------|-----------|
-| **注意力惊人** | 185 | Listed all 12 factor pairs for verification |
-| **parity-police** | 182 | Mod 2 analysis, ruled out multiple cases |
-| **何嘉豪** | 172 | Cubic equation perspective on root existence |
-| **杀死那个贝尔曼代数线形几何微分几何啊啊啊** | 170 | Polynomial construction approach |
-| **今天晚上吃点啥** | 168 | Discovered cubic structure (a=b=1) |
-| **数学数学我们喜欢你** | 114 | c=0 enumeration approach |
-| **噬菌体侵染降噪耳机** | 108 | Parametric method |
+| **噬菌体侵染降噪耳机** | 108 | Parametric method, multiple angles |
+| **数学数学我们喜欢你** | 114 | c=0 enumeration, intuition |
+| **道爷我成了** | 202 | Quadratic equation, detailed process |
+| **注意力惊人** | 185 | Listed all 12 factor pairs |
+| **parity-police** | 182 | Mod 2 analysis, ruled out cases |
+| **杀死那个贝尔曼代数线形几何微分几何啊啊啊** | 170 | Polynomial construction |
+| **何嘉豪** | 172 | Cubic equation perspective |
+| **今天晚上吃点啥** | 168 | Discovered cubic structure |
 | **KeYanZhao** | 87 | Symmetry analysis |
-| **lmy** | 23 | Sincere feedback |
 | **IAKIOI** | 20 | Naive intuition |
 
 ---
@@ -206,29 +206,17 @@ High-quality questionnaire responses (sorted by length):
 
 The most "soulful" answers from the questionnaire:
 
-> **道爷我成了** (202 chars)
-> 
-> 把 a 看成变量，研究是否等于2024。这是一个关于a的二次方程：令 f(a) = (a+P)(aQ+R) 其中 P=b+c， Q=b+c， R=bc。展开：a²Q + a(PQ+R) + PR = 2024。解这个二次方程，看判别式是否完全平方。a = [-B ± √(B²-4AC)]/2A，需要 √(...) 为整数。**你为什么要这么对我，我的数学又挂科了，我的心真的好痛啊啊啊啊啊啊！苍羌蹬阶！！！**
+> **道爷我成了**：把 a 看成变量研究二次方程...你为什么要这么对我，我的数学又挂科了，我的心真的好痛啊啊啊啊啊啊！苍羌蹬阶！！！
 
-> **lmy** (23 chars)
-> 
-> 不是这不是数论题么，我都退竞了你还不放过我！！
+> **lmy**：不是这不是数论题么，我都退竞了你还不放过我！！
 
-> **KingFrank** (13 chars)
-> 
-> 谁把这玩意塞到我抖音里了😅
+> **KingFrank**：谁把这玩意塞到我抖音里了😅
 
-> **王昊宇** (3 chars)
-> 
-> aaa
+> **王昊宇**：aaa
 
-> **Siimon哥我男神😘** (20 chars)
-> 
-> 不存在吧，三奇三偶都不行，剩下的懒得算了
+> **Siimon哥我男神😘**：不存在吧，三奇三偶都不行，剩下的懒得算了
 
-> **数学数学我们喜欢你** (114 chars)
-> 
-> 如果 c = 0，那原式变成 (a+b)·ab = 2024 = 2³×11×23。a和b是整数，a+b乘以ab。我可以枚举a的值……但这样有点盲目。**直觉上a和b不能太小也不能太大，2024的因子结构决定了a和b大概在什么范围。**
+> **数学数学我们喜欢你**：如果 c=0，那原式变成 (a+b)·ab = 2024 = 2³×11×23...直觉上 a 和 b 不能太小也不能太大
 
 ---
 
