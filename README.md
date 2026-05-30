@@ -164,15 +164,13 @@ Thanks to everyone who made MetaLang possible:
 <!-- ALL-CONTRIBUTORS-LIST:START -->
 <div align="center">
 
-![Contributors](https://raw.githubusercontent.com/EasonTechno/MetaLang/main/contributors.svg)
-
 **Core Contributors**
 
 [![EasonTechno](https://avatars.githubusercontent.com/EasonTechno?v=4&s=80)](https://github.com/EasonTechno)
 [![siimonQWER](https://avatars.githubusercontent.com/siimonQWER?v=4&s=80)](https://github.com/siimonQWER)
 [![Claude](https://avatars.githubusercontent.com/Claude?v=4&s=80)](https://github.com/Claude)
 
-**Questionnaire Participants** (26 total)
+**Questionnaire Participants**
 
 杀死那个贝尔曼代数线形几何微分几何啊啊啊 · 道爷我成了 · 噬菌体侵染降噪耳机 · parity-police · lmy · 何嘉豪 · 今天晚上吃点啥 · 注意力惊人 · 数学数学我们喜欢你 · IAKIOI · 钥匙 · KingFrank · 可以随便取名吗 · NPC · zhr的桌子～ · Siimon哥我男神😘 · zyc的零食呢 · 王昊宇 · KeYanZhao · 双叉犀金蛋 · 66789 · 麦斯欧德 · hz258258 · Masud
 
